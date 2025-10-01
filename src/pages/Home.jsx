@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from "react";
-import useFetchCourses from "../hooks/useFetchCourses.jsx";
+import useFetchCourses from "../hooks/useFetchCourses";
 import HeaderFilter from "../components/HeaderFilter";
 import Status from "../components/Status";
 import CourseCard from "../components/CourseCard";
 import WithHoverEffect from "../hoc/WithHoverEffect";
-import CourseListRender from "../components/CousreListRender.jsx";
+import CourseListRender from "../components/CousreListRender";
 
 const HoverCourseCard = WithHoverEffect(CourseCard);
 
