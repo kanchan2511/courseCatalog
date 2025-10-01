@@ -9,7 +9,7 @@ import CourseListRender from "../components/CousreListRender";
 const HoverCourseCard = WithHoverEffect(CourseCard);
 
 const Home = () => {
-  const { courses, loading, error } = useFetchCourses();
+  const { courses, loading, error } = UseFetchCourses();
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const filteredCourses = useMemo(() => {
