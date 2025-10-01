@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "React for Beginners",
+    "category": "Web Development",
+    "description": "Learn the basics of React, components, and hooks."
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript",
+    "category": "Web Development",
+    "description": "Deep dive into closures, async programming, and ES6+ features."
+  },
+  {
+    "id": 3,
+    "title": "Data Analysis with Python",
+    "category": "Data Science",
+    "description": "Analyze datasets using pandas, NumPy, and Matplotlib."
+  },
+  {
+    "id": 4,
+    "title": "Machine Learning Basics",
+    "category": "Data Science",
+    "description": "Hands-on ML with scikit-learn and real-world datasets."
+  },
+  {
+    "id": 5,
+    "title": "Introduction to AI",
+    "category": "Artificial Intelligence",
+    "description": "Explore the fundamentals of artificial intelligence."
+  },
+  {
+    "id": 6,
+    "title": "Deep Learning with TensorFlow",
+    "category": "Artificial Intelligence",
+    "description": "Build neural networks and train models using TensorFlow."
+  },
+  {
+    "id": 7,
+    "title": "DevOps Fundamentals",
+    "category": "DevOps",
+    "description": "Learn CI/CD, containerization, and deployment pipelines."
+  },
+  {
+    "id": 8,
+    "title": "Kubernetes for Beginners",
+    "category": "DevOps",
+    "description": "Manage containers at scale using Kubernetes."
+  },
+  {
+    "id": 9,
+    "title": "Cybersecurity Essentials",
+    "category": "Cyber Security",
+    "description": "Understand security threats and best practices."
+  },
+  {
+    "id": 10,
+    "title": "Ethical Hacking Basics",
+    "category": "Cyber Security",
+    "description": "Learn how to identify vulnerabilities in systems ethically."
+  },
+  {
+    "id": 11,
+    "title": "Android App Development",
+    "category": "Mobile Development",
+    "description": "Build mobile apps using Android Studio and Kotlin."
+  },
+  {
+    "id": 12,
+    "title": "iOS App Development",
+    "category": "Mobile Development",
+    "description": "Create iOS apps using Swift and Xcode."
+  }
+]

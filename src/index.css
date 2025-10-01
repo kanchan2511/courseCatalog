@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #e0f7fa,#e1f5fe);
+  color: #222;
+}
+h1{
+    font-size: 2.3rem;
+    margin-inline-start:13%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  width:75vw;
+  background: linear-gradient(135deg,#8ed5df,#4fbfce);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  margin-inline:auto;
+  border-radius: 12px;
+}
+
+header .filter-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px; 
+}
+
+header .filter-heading {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+header .filter-heading svg {
+  margin-right: 8px;
+}
+header select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #e0f7fa;
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 80vw;         
+  max-width: 1200px;   
+  padding: 0 0 40px 0; 
+  margin: 0 auto;     
+}
+@media (min-width: 1200px) {
+  .course-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .course-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 767px) {
+  .course-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.course-card p{
+ margin-block: 15px;
+}
+.course-card h3,
+.course-card p,
+.course-card button {
+  display: flex;
+  align-items: center;
+}
+
+.course-card h3 svg,
+.course-card p svg {
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.course-card button {
+  padding: 8px 16px;
+  background: linear-gradient(135deg,#26a69a,#00ac);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s,transform 0.2s ease;
+}
+
+.course-card button svg {
+  margin-left: 8px; 
+  flex-shrink: 0;
+}
+
+.course-card button:hover {
+  background: linear-gradient(135deg,#00ac,#26a69a);
+  transform: scale(1.05);
+}
+
+.status {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  background-color: #b2ebf2;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+  color: #004d40;
+}
+
+.status.error{
+  background-color: #ffcdd2;
+  color: #c62828;
+}
