@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import useFetchCourses from "../hooks/useFetchCourses";
+import UseFetchCourses from "../hooks/UseFetchCourses";
 import HeaderFilter from "../components/HeaderFilter";
 import Status from "../components/Status";
 import CourseCard from "../components/CourseCard";
